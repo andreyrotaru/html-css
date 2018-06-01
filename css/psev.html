@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>psevdo</title>
+    <style>
+        body{
+            background-color:#222;
+        }
+        form{
+            background-color:green; 
+            padding:30px;
+
+        }
+        .pad{
+            padding: 5px;
+            border: 1px solid white;
+            
+        }
+        input{
+            border-radius: 100px 0 0 100px;
+            width:150px;
+            transition: 1s;
+            outline: none;
+
+        }
+        button{
+            border-radius:  0  100px 100px 0;
+           background-color: #777;
+
+        }
+        button:hover{
+            background-color: tomato;
+        }
+        input:focus{
+            width:300px;
+        }
+        button::before{
+            content: "[";
+            color: yellow;
+        }
+        button::after{
+            content: "]";
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input class="pad" type-text="">
+    <button class="pad">
+        go
+    </button>
+    </input>
+    </form>
+</body>
+</html> 

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha256-7VVaJ5GDwFQiLIc+eNksQLUSSY5JNZtqv9o2BI8UGYg=" crossorigin="anonymous" />
+
+     <style>
+     body{
+            background-color:#888;
+        }
+        #mesage{
+            position: relative;
+            top: 100px;
+            left: 300px;
+            width: 300px;
+            height: 200px;
+            border: 5px solid #14516e;
+            border-radius: 48%;
+        }
+        p{
+            position: absolute;
+            padding-top: 70px;
+            background-image: radial-gradient(#cef1ec , #14516e);
+            width: 300px;
+            height: 130px;
+            border-radius: 48%;
+            text-align: center;
+            font-size: 20px;
+            z-index: 2;
+            color:#2b7394;
+        }
+        .foot1{
+            position: absolute;
+            top: 165px;
+            left: 95px;
+            width: 20px;
+            height: 50px;
+            border: 6px solid #14516e;
+            border-radius: 100px 0 100px 0;
+            z-index: 1;
+            transform: rotate(-39deg);
+            border-top: none;
+            border-left: none;
+            
+        }
+        .foot2{
+            position: absolute;
+           left:135px;
+           top: 145px;
+           background-color: #4c7e96fd;
+           width: 40px;
+            height: 70px;
+            border: 7px solid #14516efd;
+            border-radius:100px 0 100px 0;
+            z-index: 0;
+            transform: rotate(-5deg) skewX(-40deg);
+            border-top: none;
+            border-left: none;
+        }
+     </style>
+    
+</head>
+<body>
+    <div id="mesage">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, perferendis!</p>
+        <div class="foot1"></div>
+        <div class="foot2"></div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<style>
+    body{
+    background-color:#444;
+    margin:0;
+}
+ul{
+    background-color:#333;  
+    margin:0;
+    list-style:none;
+    padding-left:0;
+    width:200px;
+    border-right: 50px solid yellow;
+    transform: translateX(-200px);
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+li{
+    padding: 20px;
+   border-bottom: 1px solid #111; 
+   border-right: 1px solid green;   
+}
+li:hover{
+    background-color: #222;
+}
+ul:hover{
+    transform: translateX(0px);
+    transition: 0.5s;     
+   }
+#last{
+    border-bottom:none;
+}
+</style>
+
+
+
+</head>
+<body>
+    <ul>
+        <li  ><a href="">important</a></li>
+        <li  ><a href="">telefon</a></li>
+        <li  ><a href="">email</a></li>
+        <li  ><a href="">fbook</a></li>
+        <li id="last"  ><a href="">twiter</a></li>
+    </ul>
+</body>
+</html>

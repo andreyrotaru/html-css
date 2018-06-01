@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>navbar-enter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
+    <style>
+    body{
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    .info,.info div a{
+        background-color: #f0efef;
+        color: #777;
+        margin: 0;
+        font-size: 15px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana,sans-serif; 
+    }
+    .info div a{
+        padding-left: 23px;
+    }
+    .info div a:hover{
+        color: #8d86f3;
+    }
+    .info, .info>div{
+        display:inline-block;
+        vertical-align: middle;
+        padding: 2px;
+    }
+    .info div:first-child{
+        padding-left: 50px;
+    }
+    .info div:nth-child(2){
+     
+     padding-left: 350px; 
+        
+    }
+    .info div:nth-child(3){
+        padding-left: 105px;     
+        padding-right: 112px; 
+    }
+    .menu div{
+        display:inline-block;
+        vertical-align: middle; 
+          
+    }
+    .menu{
+        padding: 0px;
+    }
+    .menu div:nth-child(1){
+        width: 33px;
+        height: 33px;
+        border: 1px solid #e21f5c;
+        border-radius: 25%;
+        background-color: #e21f5c;
+        margin-left: 75px;
+    }
+    .fa-play{
+        padding-top:8px;
+        padding-left: 12px;
+        color: white;
+    }
+    .menu div:nth-child(2){
+        font-size: 35px;
+        font-family: sans-serif;
+        margin-left: 5px;
+    }
+    .menu div:nth-child(2) a{
+        color:#000;
+    }
+    .menu div:nth-child(3){
+        width: 650px;
+        height: 32px;
+        border: 1px solid #777;
+        border-radius: 50px 50px 50px 50px ;
+        padding-top: 7px;
+        padding-left: 25px;
+        margin-left: 15px;
+    }
+    .menu div:nth-child(3) a{
+        
+        font-family: sans-serif;
+        font-size: 17px;
+        color: #999;
+        margin-bottom: px;
+    }
+    .fa-search{
+        
+        margin-left: 449px;
+        font-size: 23px;
+    }
+    .menu div:nth-child(4) a{
+        font-size: 19px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        margin-left: 15px;
+        margin-right: 55px; 
+        color: #777;
+    }
+    .menu div:nth-child(4) a:hover{
+        color: #8d86f3;  
+    }
+
+    .menu div:nth-child(n+5) a{
+        
+        font-size: 27px;
+        color: #777;
+    }   
+    .menu div:nth-child(n+5){
+        text-align: center;
+        height: 45px;
+        width: 65px;
+        
+        margin: none;
+        margin: 0px;
+        padding-top: 25px;
+    }
+    .menu div:nth-child(n+5):hover{
+        background-color: #f0efef;   
+    }
+    .menu div:nth-child(7){
+        
+        padding-top: 24px;
+
+    }
+    .products{
+        background-color: #444;
+        margin: 0;
+    }
+    .products div:hover{
+        background-color: #555;
+        
+    }
+    .products div{
+        display:inline-block;
+        vertical-align: middle;
+        width: 99px;
+        height: 27px; 
+        margin: 0;
+        text-align: center;
+        padding: 11px;
+    }
+    .products div a{
+        color: honeydew;
+        font-size: 18px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0; 
+    }
+    .products div:nth-child(1){
+        
+        margin-left: 70px;
+        }
+        .products div:nth-child(4){
+            padding-right: 15px;
+        }
+        .products div:nth-child(6){
+            padding-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="info">
+            <div><a href="">servicii</a>
+                <a href="">livrare</a>
+                <a href="">achitare</a>
+                <a href="">contacte</a>
+            </div>
+            <div>magazinul online lucrează: 9:00 - 19:00</div>
+            <div>0 68 800 900       0 22 44 66 99</div>
+        </div>
+        <div class="menu">
+            <div><a href=""><i class="fa fa-play" aria-hidden="true"></i></a></div>
+            <div><a href="">enter</a></div>
+            <div><a href="">Cauta produsul dorit <i class="fa fa-search" aria-hidden="true"></i></a></div>
+            <div><a href="">RU</a></div>
+            <div><a href=""><i class="fa fa-user-o" aria-hidden="true"></i></a></div>
+            <div><a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a></div>
+            <div> <a href="">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 26">
+                        <rect class="svg-compare" x="5" y="3" width="3" height="9" rx="2" ry="2"></rect>
+                        <rect class="svg-compare" x="11" y="0" width="3" height="12" rx="2" ry="2"></rect>
+                        <rect class="svg-compare" x="17" y="6" width="3" height="6" rx="2" ry="2"></rect>
+                    </svg>
+                </span>
+            </a>
+            </div>
+            <div><a href=""><i class="fa fa-shopping-bag"></i></a></div>
+        </div>
+        <div class="products">
+            <div><a href="">Telefoane</a></div>
+            <div><a href="">Tablete</a></div>
+            <div><a href="">Laptopuri</a></div>
+            <div><a href="">Calculatoare</a></div>
+            <div><a href="">Periferice</a></div>
+            <div><a href="">Televizoare</a></div>
+            <div><a href="">Gadgets</a></div>
+            <div><a href="">For Gamers</a></div>
+        </div>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body{
+    background-color: violet;
+}
+@keyframes rotate{
+    from{transform: rotate(0)}
+    to{transform: rotate(-360deg)}
+}
+@keyframes rot{
+    from{transform: rotate(0)}
+    to{transform: rotate(360deg)}
+}
+#preloader{
+    width: 200px;
+    height: 200px;
+    margin:100px;
+    
+}
+#preloader>.big{
+    width: 160px;
+    height:160px;
+    border: 5px solid #2b4368;
+    animation: rot 5s infinite linear;
+    transform: translateY(15px) translateX(15px);
+    border-left-color: violet;
+    border-right-color: violet;
+    border-radius: 100%;
+    
+}
+#preloader .small{
+    width: 70px;
+    height:70px;
+    border: 5px solid #257bba;
+    
+    transform: translateY(10px) translateX(10px); 
+    border-radius: 100%;   
+}
+#preloader .medim{
+    width: 100px;
+    height:100px;
+    margin:25px;
+    animation: rotate 2s infinite linear;
+    border-top: 5px solid #2a638c;
+    border-bottom: 5px solid #2a638c;
+    transform: translateY(20px) translateX(25px) !important ; 
+    border-radius: 40%;
+    
+}

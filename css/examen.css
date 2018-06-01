@@ -1,0 +1,88 @@
+div{
+    width: 400px;
+    height: 20px;
+    background-color: #999;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom:2px solid powderblue;
+}
+#status-barr .primu,.doi,.trei,.patru{               
+    width: 3px;
+    border-bottom: none;                                  
+    background-color: green;                             
+    float: left;
+    margin: 2px;
+}
+#status-barr .primu{
+    height: 5px;
+    transform: translateY(9px);
+}
+#status-barr .doi{
+    height: 8px;
+    transform: translateY(6px);
+}
+#status-barr .trei{
+    height: 13px;
+    transform: translateY(1px);
+}
+#status-barr .patru{
+    height: 16px;
+    transform: translateY(-2px);
+}
+#batareea{
+    float: right;
+    border: 2px solid #111;
+    height: 11px;
+    width: 27px;
+    background-color: yellowgreen;
+    transform: translateY(-5px);
+    transform: translateX(-40px);
+    
+}
+#status-barr>.di{
+    width: 3px;
+    height: 7px;
+    background-color: #111;
+    transform: translateX(-40px);
+    margin-top: 4px;
+    float: right;
+    border-bottom: none;
+}
+#batareea>div{
+    float: right;
+    height: 11px;
+    width: 4px;
+    margin: 1px;
+    padding-bottom: 0px;
+    transform: translateY(-2px) ;
+    background-color: #333;
+    border-bottom: none;
+    
+    overflow: hidden;
+    }
+    #status-barr>.vremea{
+        float: right;
+        transform: translateX(-25px);
+        width: 25px;
+        height: 15;
+        border-bottom: none;
+        
+        padding-bottom: 0px;
+    }
+    #status-barr>.procent{
+        float: right;
+        transform: translateX(-50px);
+        width: 25px;
+        height: 15;
+        border-bottom: none;
+        
+        padding-bottom: 0px;   
+    }
+    @keyframes carging{
+        from{opacity:1;}
+        to{opacity: 0;}
+    }
+   #batareea :first-child{
+    animation: carging 0.5s linear infinite;
+    transform:translateY(4px); 
+   }

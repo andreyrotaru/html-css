@@ -1,0 +1,18 @@
+.logo a span:nth-child(3),
+.logo a span:last-child, .menu, .navig{
+    display: none;
+}
+.user{
+    display: inline;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
+.user a{
+    font-size: 40px;
+    color: grey;
+}
+.logo a:first-child{
+    color: #db7676;
+    font-size: 40px;
+}

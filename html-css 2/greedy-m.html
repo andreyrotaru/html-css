@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <style>
+    body{
+        background-color: #78b1eb;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        width: 100%; 
+        display: table-row;    
+    }
+    a{
+        text-decoration: none;
+        color: #78b1eb;
+        
+        font-size: 18px;
+    }
+    li{
+        list-style: none;
+        background-color: #fff;
+        padding: 20px;
+        display: table-cell;
+        vertical-align: middle;
+        border: 1px solid #999;
+    }
+    nav{
+        width: 96%; 
+        display: table; 
+        margin-left: 2%;
+        margin-top: 3%;
+    }
+    li:last-child{
+        background-color: #9a9edf;
+        width: 28px;
+        position: relative;
+        padding: 6px;
+    }
+    li:last-child::before{
+        content:"3";
+        color:#fff;
+        font-size: 20px;
+        background-color: #9a9edf;
+        position: absolute;
+        border: 4px solid #fff;
+        border-radius: 100%;
+        display: block;
+        width: 35px;
+        height: 35px;
+        right: 40px;
+        top:9px;
+        line-height: 32px;
+        text-align: center;
+    }
+    span{
+        width: 35px;
+        height: 4px;
+        background-color: #fff;
+        display: block;
+        margin: 5px;
+
+    }
+        /*stiluri pentru mob.planset*/
+        
+    @media screen and (max-width:950px) {
+        ul li:nth-child(7){
+         display: none;
+         width: 100%;
+     }
+     li:last-child::before{
+        content:"4";
+        color:#fff;
+        font-size: 20px;
+        background-color: #9a9edf;
+        position: absolute;
+        border: 4px solid #fff;
+        border-radius: 100%;
+        display: block;
+        width: 35px;
+        height: 35px;
+        right: 40px;
+        top:9px;
+        line-height: 32px;
+        text-align: center;
+    }
+    }
+        @media screen and (max-width:850px) {
+        ul li:nth-child(6){
+         display: none;
+         width: 100%;
+     }
+     li:last-child::before{
+        content:"5";
+        color:#fff;
+        font-size: 20px;
+        background-color: #9a9edf;
+        position: absolute;
+        border: 4px solid #fff;
+        border-radius: 100%;
+        display: block;
+        width: 35px;
+        height: 35px;
+        right: 40px;
+        top:9px;
+        line-height: 32px;
+        text-align: center;
+     }
+    }
+        @media screen and (max-width:750px) {
+        ul li:nth-child(5){
+         display: none;
+         width: 100%;
+     }
+     li:last-child::before{
+        content:"6";
+        color:#fff;
+        font-size: 20px;
+        background-color: #9a9edf;
+        position: absolute;
+        border: 4px solid #fff;
+        border-radius: 100%;
+        display: block;
+        width: 35px;
+        height: 35px;
+        right: 40px;
+        top:9px;
+        line-height: 32px;
+        text-align: center;
+     }
+    }
+        @media screen and (max-width:650px) {
+        ul li:nth-child(4){
+         display: none;
+         width: 100%;
+     }
+     li:last-child::before{
+        content:"7";
+        color:#fff;
+        font-size: 20px;
+        background-color: #9a9edf;
+        position: absolute;
+        border: 4px solid #fff;
+        border-radius: 100%;
+        display: block;
+        width: 35px;
+        height: 35px;
+        right: 40px;
+        top:9px;
+        line-height: 32px;
+        text-align: center;
+     }   
+    }
+        @media screen and (max-width:550px) {
+        ul li:nth-child(3){
+         display: none;
+         width: 100%;
+      }
+      li:last-child::before{
+        content:"8";
+        color:#fff;
+        font-size: 20px;
+        background-color: #9a9edf;
+        position: absolute;
+        border: 4px solid #fff;
+        border-radius: 100%;
+        display: block;
+        width: 35px;
+        height: 35px;
+        right: 40px;
+        top:9px;
+        line-height: 32px;
+        text-align: center;
+     } 
+    }
+    </style>
+</head>
+<body>
+    <nav>     
+        <ul>
+            <li><a href="">Lorem </a></li>
+            <li><a href="">ipsum</a></li>
+            <li><a href="">dolor</a></li>
+            <li><a href="">sit</a></li>
+            <li><a href="">amet</a></li>
+            <li><a href="">consectetur</a></li>
+            <li><a href="">adipisicing.</a></li>
+            <li><a href="">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a></li>
+        </ul>
+    </nav>
+</body>
+</html>

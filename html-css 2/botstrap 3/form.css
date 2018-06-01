@@ -1,0 +1,82 @@
+form {
+    text-align: center;
+}
+.modal-header{
+    text-align: right; 
+}
+.modal-header h4{
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    font-weight: 700;
+    color: green;
+    
+}
+.modal-header button:nth-child(2){
+    margin-right: 100px;
+    border: none;
+    font-weight: 700;
+    
+}
+.modal-header button:nth-child(2):hover{
+    background-color: #fff;
+    color: #2051bd;
+    
+}
+.modal-header button:nth-child(2):focus{
+    background-color: #fff;
+    
+}
+.modal-header button:last-child{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 1;
+    color: #777;
+   
+}
+.modal-header button:last-child:hover{
+    background-color: red;
+    color: #fff;
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+#login div:nth-child(3) label{
+    font-weight: 500; 
+}
+#login button:nth-child(4){
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#login div:nth-child(5) button{
+    margin-top: 15px;
+    border: none;
+    color: #5b8bf3;
+    
+}
+#login div:nth-child(5) button:hover{
+    background-color: #fff;
+    color: #042a7c;
+    text-decoration: underline; 
+}
+#Modal-register .reg1{
+text-align: left;
+}
+#home{ 
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 598px;
+    height: 255px;
+    padding-top: 15px;
+    border-radius:6px; 
+}
+#register input{
+    width: 568px;  
+    margin-left: 15px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Business Card Example</title>
+  <style>
+    body{
+      background-color: #EEE;
+      
+    }
+    h1,h2,p,ul{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      color:#EEE;
+      
+    }
+    #business-card{
+      background-color: #111;
+      width: 450px;
+      height: 230px;
+      font-family:sans-serif;
+      margin: 200px;
+    }
+    .name{
+      width: 220;
+      height: 20px;
+     padding: 10px;   
+     padding-top: 70px;
+     padding-left: 15px;
+     
+     
+     float: left;
+    }
+    .info{
+        width: 230px; 
+        height: 20px;
+         padding-right: 15px;
+           
+        float: right;
+        
+        margin-top: 72px;
+    }
+     .name h1{
+      
+    }
+     .name h2{
+      color:#bfa161;
+      padding-left: 41px;
+      
+    }
+     .name small{
+      color:#999;
+      padding-left: 4px;      
+    }
+    .info li{
+      color:#999;
+    }
+    .info li:before{
+        color: #bfa161; 
+        
+    }
+    
+
+
+  </style>
+</head>
+<body>
+  <div id="business-card">
+
+    <div class="name">
+      <h1>Firstname</h1>
+      <h2>Lastname</h2>
+      <small>web designer &#47; developer</small>
+    </div>
+    <div class="info">
+      <p>12345 Some Street, City<br>State, Province, Country</p>
+       <ul>
+         <li># +00 22 333444</li>
+         <li># email@somemail.example</li>
+         <li># www.exampledomain.example</li>
+       </ul>
+    </div>
+
+  </div>
+</body>
+</html>

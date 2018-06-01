@@ -1,0 +1,36 @@
+body{
+    background-color: #777;
+    
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+nav{
+    margin: 0;
+    background-color: #fff;
+}
+.logo{
+    margin-left:8%;
+}
+.logo span:first-child{
+    color: #db7676;
+    font-size: 55px;
+}
+.logo span:nth-child(2){
+    font-size: 55px;
+    color: #666;
+}
+.logo span:nth-child(3){
+    color: #999;
+    position: relative;
+    top: -20px;  
+     
+}
+.logo a span:last-child{
+    color: #999;
+    position: relative;
+    top: -30px;
+    left: 173px;
+}

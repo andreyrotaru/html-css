@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body{
+        background-color: black;
+        margin: 0;
+
+    }
+    #fan .slice{
+        background-color: #333;
+        color:#fff;
+        position: absolute;
+        padding: 30px;
+        width: 800px;
+        height: 70px;
+        border-radius: 50% 50px 50px 50%;
+        top:50%;
+        left: 50%;
+        margin-top: -65px;
+        margin-left: -430px;
+        box-shadow: 5px 10px #666;
+        transform-origin: 50px 65px;
+        transform: rotate(0);
+        transition: 1s;
+    }
+    #fan h2,
+    #fan p{
+        margin:0 ;
+        
+    }
+    #fan p{
+        text-align: right;
+        text-decoration: underline;
+        font-style: italic;
+        font-size: 14px;
+        color:#777;
+        padding-top: 25px;
+    }
+    #fan h2{
+        font-size: 35px;
+        padding-left: 20px; 
+        text-align: right;
+    }
+    #fan h2::before{
+        content:"\275D";
+        font-size: 30px;
+        padding-right: 10px;
+    }
+    #fan h2::after{
+        content:"\275E";
+        font-size: 30px;
+        padding-left: 10px;
+    }
+    #fan .slice::before{
+        background-color: #111;
+        border-radius: 100%;
+      content:  "\25EF";
+      position: absolute;
+      font-size: 20px;
+      top :50px;
+      left: 20px;
+      box-shadow: inset 0 0 5px 2px red;
+    }
+    /*ниже ефекты*/
+    #fan .slice:nth-child(1){
+            background-color: #303030;
+    }
+    #fan .slice:nth-child(2){
+            background-color: #353535;
+    }
+    #fan .slice:nth-child(3){
+            background-color: #404040;
+    }
+    #fan .slice:nth-child(4){
+            background-color: #454545;
+    }
+    #fan .slice:nth-child(5){
+            background-color: #505050;
+    }
+    #fan .slice:nth-child(6){
+            background-color: #555555;
+    }
+    #fan .slice:nth-child(7){
+            background-color: #606060;
+    }
+    #fan .slice:nth-child(8){
+            background-color: #656565;
+    }
+    #fan .slice:nth-child(9){
+            background-color: #707070;
+    }
+    #fan .slice:nth-child(10){
+        
+    background-color: #757575;
+    }
+    #fan .slice:nth-child(11){
+        
+    background-color: #808080;
+    }
+    #fan .slice:nth-child(12){
+        
+    background-color: #858585;
+    }
+    #fan:hover .slice:nth-child(1){
+        transform: rotate(-55deg);
+        
+    }
+    #fan:hover .slice:nth-child(2){
+        transform: rotate(-45deg);
+        
+    }
+    #fan:hover .slice:nth-child(3){
+        transform: rotate(-35deg);
+        
+    }
+    #fan:hover .slice:nth-child(4){
+        transform: rotate(-25deg);
+        
+    }
+    #fan:hover .slice:nth-child(5){
+        transform: rotate(-15deg);
+        
+    }
+    #fan:hover .slice:nth-child(6){
+        transform: rotate(-5deg);
+        
+    }
+    #fan:hover .slice:nth-child(7){
+        transform: rotate(5deg);
+        
+    }
+    #fan:hover .slice:nth-child(8){
+        transform: rotate(15deg);
+        
+    }
+    #fan:hover .slice:nth-child(9){
+        transform: rotate(25deg);
+        
+    }
+    #fan:hover .slice:nth-child(10){
+        transform: rotate(35deg);
+        
+    }
+    #fan:hover .slice:nth-child(11){
+        transform: rotate(45deg);
+        
+    }
+    #fan:hover .slice:nth-child(12){
+        transform: rotate(55deg);
+        
+    }
+    </style>
+</head>
+<body>
+    
+    <div id="fan">
+        <div class="slice">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="slice">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="slice">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="slice">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="slice">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="slice">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="slice">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="slice">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="slice">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="slice">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="slice">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="slice">
+            <h2>Lorem, ipsum dolor .</h2>
+            <p>Lorem ipsum dolor sit amet .</p>
+        </div>
+    </div>
+</body>
+</html>

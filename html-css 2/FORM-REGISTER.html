@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
+    <style>
+    body{
+        background-color: #111;
+
+    }
+
+    #form{
+        position: relative;
+        top:100px;
+        left: 480px;
+        width: 330px;
+        height: 330px;
+        background-color: #25cec0;
+       overflow: hidden;
+    }
+    .icon{
+        position: absolute;
+        top: 23px;
+        left: 147px;
+        z-index: 4;
+        background-color: #eed708;
+        width: 55px;
+        height: 55px;
+        border-radius: 100%;
+        
+    }
+    .fa-pencil{
+        position: absolute;
+        left: 17px;
+        top: 13px;
+        color: #fff;
+        font-size: 25px;
+    }
+    p{
+     font-family: Arial, Helvetica, sans-serif;
+     color:#444;
+     font-size: 15px;  
+    }
+    p:last-child{
+        font-size: 9px;
+        color: #fcadad;
+    }
+    form{
+        position: absolute;
+        z-index: 1;
+    }
+    fieldset{
+       padding-top: 25px;
+        background-color: #fff;
+        position: absolute;
+       z-index: 1;
+        top: 50px;
+        left:80px;
+        text-align: center;
+        width: 160px;
+        height: 200px;
+        border: none;
+    }
+    input{
+        border-radius: 2px ;
+        border: none;
+        background-color: #dbd9d9;
+        margin: 5px;
+        font-size: 10px;
+        padding: 4px;
+        text-align: center;
+        color: #444;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    input[value]{
+        background-color: #6262d6;
+        padding-left: 50px;      
+        padding: 8px;
+        width: 152px;
+        color: #fff;
+    }
+    #shad1{
+        position: absolute;
+        top: 24px;
+        left: 22px;
+        z-index: 3;
+        width: 26px;
+        height: 20px;
+        background: linear-gradient(#555,#eed708);
+        transform: rotate(-45deg);
+        opacity:0.5;
+    }
+    #shad2{
+        position: absolute;
+        z-index: 2;
+        top: 38px;
+        left: 162px;
+        background: linear-gradient(#555,#fff);
+        width: 55px;
+        height: 55px;
+        transform: rotate(-45deg);
+        opacity: 0.5;
+    }
+    #shad3{
+        position: absolute;
+        z-index: 0;
+        top: 129px;
+        left: 105px;
+        width: 298px;
+        height: 200px;
+        background: linear-gradient(#555,#25cec0);
+        transform: rotate(-52deg);
+        opacity: 0.5;
+    }
+    </style>
+</head>
+<body>
+    <div id="form">
+            <div class="icon">
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+                <div id="shad1"></div>
+            </div>
+        <div id="shad2"></div>
+        <form>
+            <fieldset>
+                <p>Register</p>
+                
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Confirm Password">
+                <input type="submit" value="REGISTER">
+                <p>Member Login</p>
+            </fieldset>
+        </form>
+        <div id="shad3"></div>
+    </div>
+</body>
+</html>

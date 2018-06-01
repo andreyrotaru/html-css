@@ -1,0 +1,37 @@
+    /*global style*/
+    /*tag selector*/
+    body{
+        background-color:black;
+        color:white;
+        width:360px;
+        padding:65px;
+        
+    }    
+    
+    p{
+        background-color:green;
+        width:100px;
+        height: 100px;  
+        float:right;
+        margin:10px;
+    }
+    /*class selector*/
+    .row{
+        background-color:red;  
+    }
+    .col{
+        border-radius: 100px;
+    }
+    /*id selector */ 
+    #first{
+        border-radius: 100px 0 0 0 ;  
+    }
+    #thirt{
+        border-radius:0 100px  0 0 ;
+    }
+    #sevanth{
+        border-radius:0 0 0 100px ;
+    }
+    #last{
+        border-radius:0 0 100px 0 ;  
+    }

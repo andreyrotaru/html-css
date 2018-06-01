@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #222;
+
+        }
+        
+        #preloader{
+            width: 100px;
+            height: 100px;
+            
+            
+        }
+        #preloader:hover{
+            animation: rot 1s infinite;
+        }
+        #preloader>div{
+            width: 30px;
+            height: 30px;
+            background-color:yellowgreen ;
+            float: left;
+            border: 1.5px solid #222;
+            }
+        
+        @keyframes flash{
+            from{opacity: 1;}
+            to{opacity: 0;}
+        }
+        #preloader div:nth-child(4n+1){
+            animation: flash 1s infinite;  
+        }
+        #preloader div:not(:nth-child(4n+1)){
+            animation: flash 0.5s infinite;  
+        }
+        @keyframes rot{
+         from{transform: rotate(0)}
+         to{transform: rotate(360deg)}   
+        }
+    </style>
+</head>
+<body>
+    <div id="preloader">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

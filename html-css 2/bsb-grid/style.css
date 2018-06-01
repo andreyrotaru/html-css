@@ -1,0 +1,13 @@
+
+@media (min-width: 1200px){
+    .container{
+        width: 1300px;
+    }
+}
+.footer-wrapper{
+    background-color: #999;
+}
+article img{
+    max-width: 100%; 
+     height: auto; 
+}
